@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>Hsc Math solution</title>
+    <link rel="preload" href="icon.png" title="icon" type="image/png" />
+    <link rel="preload" href="File.apk" title="Apk file" type="apk" />
+    
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  </head>
+  <body onload="Myfunction()">
+  <div id="load">
+  </div>  
+    
+    <div id="box">
+      <img src="icon.png" alt="logo" />
+      <p class="text">HSC <br /> Higher Math <br />1st paper & 2nd paper <br />solution</p>
+      <a class="download" href="File.apk" download>DOWNLOAD</a>
+    </div>
+    <script type="text/javascript" charset="utf-8">
+      var preload = document.getElementById('load');
+      var content = document.getElementById('box');
+        
+      function Myfunction(){
+      setTimeout(()=>{
+        content.style.display='block';
+     },2000);
+      setTimeout(()=>{
+        preload.style.display='none';
+     },2000);
+      }
+    </script>
+  </body>
+</html>
