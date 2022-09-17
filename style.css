@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body
+{
+  top: 120px;
+  background: #1f1b24;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+#load 
+{
+  display: block;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border: 12px solid #fff;
+  border-right:12px solid #1f1b24;
+  border-radius: 50%;
+  left: 27%;
+  top: 150px;
+  animation: ring 2s infinite;
+}
+@keyframes ring
+{
+  100%
+  {
+    transform: rotate(360deg)
+  }
+}
+#box 
+{
+  display: none;
+}
+.text
+{
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+  color: #fff;
+}
+img
+{
+  border: 2.5px solid #fff;
+  border-radius: 4px 20px 4px 20px;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  top: 20px;
+}
+.download 
+{
+  font-family: 'Bungee Spice', cursive;
+  font-size: 30px;
+  background: #fff;
+  text-decoration: none;
+  border: 2px solid #111;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+}
